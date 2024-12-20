@@ -1,5 +1,5 @@
 # Uncomment this line to define a global platform for your project
-source 'https://github.com/Simon-Yu-666/HJIosAwnCoreSpec.git'  #我们自己的私有spec仓库的地址
+source 'https://gitee.com/mozhi_net/haji-ios-awn-core-spec.git'  #我们自己的私有spec仓库的地址
 source 'https://cdn.cocoapods.org/'
 
 platform :ios, '12.0'
