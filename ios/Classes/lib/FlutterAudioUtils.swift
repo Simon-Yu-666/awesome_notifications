@@ -7,7 +7,7 @@
 
 import Flutter
 import Foundation
-import IosAwnCore
+import HJIosAwnCore
 
 @available(iOS 10.0, *)
 public class FlutterAudioUtils : AudioUtils {

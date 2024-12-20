@@ -1,4 +1,7 @@
 # Uncomment this line to define a global platform for your project
+source 'https://github.com/Simon-Yu-666/HJIosAwnCoreSpec.git'  #我们自己的私有spec仓库的地址
+source 'https://cdn.cocoapods.org/'
+
 platform :ios, '12.0'
 
 # CocoaPods analytics sends network stats synchronously affecting flutter build latency.
@@ -31,7 +34,7 @@ target 'Runner' do
   use_frameworks!
   use_modular_headers!
   
-  #pod 'IosAwnCore', '~> 0.10.0'
+#  pod 'HJIosAwnCore', '~> 0.10.3'
   #pod 'IosAwnCore', :path => '../../../IosAwnCore/'
   flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
 end

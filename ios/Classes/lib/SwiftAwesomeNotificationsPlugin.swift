@@ -1,7 +1,7 @@
 import UIKit
 import Flutter
 import UserNotifications
-import IosAwnCore
+import HJIosAwnCore
 
 public class SwiftAwesomeNotificationsPlugin:
                 NSObject,
